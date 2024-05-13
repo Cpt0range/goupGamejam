@@ -9,7 +9,7 @@ public class Movement : MonoBehaviour
     float horizontal;
     float vertical;
 
-    public float runSpeed = 20.0f;
+    public float runSpeed = 1.0f;
 
     public Vector2 move;
 
