@@ -8,9 +8,7 @@ public class Movement : MonoBehaviour
 
     float horizontal;
     float vertical;
-
-    public float runSpeed = 1.0f;
-
+    float moveMod = 5;
     public Vector2 move;
 
     void Start()
@@ -27,6 +25,6 @@ public class Movement : MonoBehaviour
     void FixedUpdate()
     {
         move = new Vector2(horizontal, vertical).normalized;
-        body.velocity = new Vector2(move.x * runSpeed, move.y * runSpeed);
+        body.velocity = new Vector2(move.x * moveMod,move.y * moveMod);
     }
 }
