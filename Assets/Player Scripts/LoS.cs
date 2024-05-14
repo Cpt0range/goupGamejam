@@ -30,7 +30,6 @@ public class LoS : MonoBehaviour
         mesh = new Mesh();
         GetComponent<MeshFilter>().mesh = mesh;
         fov = 360f;
-        origin = Vector3.zero;
     }
     private void Update()
     {
@@ -43,7 +42,7 @@ public class LoS : MonoBehaviour
         Vector2[] uv = new Vector2[vertices.Length];
         int[] triangles = new int[rayCount *3];
 
-        vertices[0] = origin;
+        vertices[0] = Vector3.zero;
 
         int vertexIndex = 1;
         int TriangleIndex = 0;
@@ -51,14 +50,14 @@ public class LoS : MonoBehaviour
         {
 
             Vector3 vertex;
-            RaycastHit2D raycastHit2d = Physics2D.Raycast(origin, GetVectorFromAngle(angle), viewdistance, layerMask);
+            RaycastHit2D raycastHit2d = Physics2D.Raycast(transform.position, GetVectorFromAngle(angle), viewdistance, layerMask);
             if(raycastHit2d.collider == null)
             {
-                vertex = origin + GetVectorFromAngle(angle) * viewdistance;
+                vertex =  GetVectorFromAngle(angle) * viewdistance;
             }
             else
             {
-                vertex = raycastHit2d.point;
+                vertex = transform.InverseTransformPoint(raycastHit2d.point);
             }
             vertices[vertexIndex] = vertex;
 
@@ -79,10 +78,6 @@ public class LoS : MonoBehaviour
         mesh.vertices = vertices;
         mesh.uv = uv;
         mesh.triangles = triangles;
-    }
-    public void SetOrigin(Vector3 origin)
-    {
-        this.origin = origin;   
     }
     public void SetAimDirection(Vector3 aimDirection)
     {

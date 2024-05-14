@@ -20,7 +20,7 @@ public class Movement : MonoBehaviour
     {
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
-        transform.position = Input.mousePosition;
+        
     }
 
     void FixedUpdate()

@@ -15,7 +15,7 @@ public class PlayerRotation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        los.SetOrigin(transform.position);
+        
         los.SetAimDirection(transform.forward);
     }
 }
