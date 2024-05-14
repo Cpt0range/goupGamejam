@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 
 public class LoS : MonoBehaviour
@@ -10,25 +11,33 @@ public class LoS : MonoBehaviour
         float angleRad = angle * (Mathf.PI / 180);
         return new Vector3(Mathf.Cos(angleRad), Mathf.Sin(angleRad));
     }
+    static float GetAngleFromVectorFloat(Vector3 dir) 
+    {
+        dir = dir.normalized;
+        float n = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+        if (n < 0) n += 360;
+
+        return n;
+    }
 
     [SerializeField] private LayerMask layerMask;
     private Vector3 origin;
-    private Vector3 startingAngle;
-
+    private float startingAngle;
+    private float fov;
     private Mesh mesh;
     private void Start()
     {
         mesh = new Mesh();
         GetComponent<MeshFilter>().mesh = mesh;
+        fov = 360f;
+        origin = Vector3.zero;
     }
     private void Update()
     {
-        float fov = 240f;
-        Vector3 origin = Vector3.zero;
-        int rayCount = 500;
-        float angle = 0f;
+        int rayCount = 1000;
+        float angle = startingAngle;
         float angleIncrease = fov / rayCount;
-        float viewdistance = 10f;
+        float viewdistance = 50f;
 
         Vector3[] vertices = new Vector3[rayCount + 1 + 1];
         Vector2[] uv = new Vector2[vertices.Length];
@@ -75,9 +84,9 @@ public class LoS : MonoBehaviour
     {
         this.origin = origin;   
     }
-    public void SetAimDetection(Vector3 aimDirection)
+    public void SetAimDirection(Vector3 aimDirection)
     {
-
+        startingAngle = GetAngleFromVectorFloat(aimDirection) - (fov / 2f);
     }
 
 }
