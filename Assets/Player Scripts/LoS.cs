@@ -37,7 +37,7 @@ public class LoS : MonoBehaviour
         int rayCount = 1000;
         float angle = startingAngle;
         float angleIncrease = fov / rayCount;
-        float viewdistance = 50f;
+        float viewdistance = 25f;
 
         Vector3[] vertices = new Vector3[rayCount + 1 + 1];
         Vector2[] uv = new Vector2[vertices.Length];

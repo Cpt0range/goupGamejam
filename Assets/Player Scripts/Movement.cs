@@ -20,6 +20,14 @@ public class Movement : MonoBehaviour
     {
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
+        Vector3 Pos = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
+        transform.position += Pos * moveMod * Time.deltaTime;
+        Vector3 direction = Pos.normalized;
+
+        if (Pos != Vector3.zero)
+        {
+            transform.up = direction;
+        }
     }
 
     void FixedUpdate()
