@@ -13,7 +13,11 @@ public class CamTracker : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+<<<<<<< Updated upstream
 
+=======
+        
+>>>>>>> Stashed changes
     }
 
     // Update is called once per frame
@@ -34,9 +38,18 @@ public class CamTracker : MonoBehaviour
 
         MoveVektor.z = 0;
 
+<<<<<<< Updated upstream
         transform.Translate(MoveVektor * Time.deltaTime * FollowSpeed);
 
 
 
     }
 }
+=======
+        transform.Translate(MoveVektor * Time.deltaTime * FollowSpeed );
+
+        
+
+    }
+}
+>>>>>>> Stashed changes
