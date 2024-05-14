@@ -9,18 +9,8 @@ public class TrackerKamera : MonoBehaviour
     [SerializeField] private float FollowSpeed;
     [SerializeField] private float MouseForce;
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        Debug.Log(Screen.width);
-
         Vector3 mousePosition = Input.mousePosition;
 
         mousePosition.x -= Screen.width / 2;

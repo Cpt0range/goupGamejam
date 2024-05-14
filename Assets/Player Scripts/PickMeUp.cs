@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +9,7 @@ public class PickMeUp : MonoBehaviour
     public GameObject CircleOnPlayer;
     public GameObject Circle;
     public GameObject Player;
+    Boolean Contact = false;
 
     
     // Start is called before the first frame update
@@ -15,18 +17,25 @@ public class PickMeUp : MonoBehaviour
     {
         CircleOnPlayer.SetActive(false);
     }
-
-    // Update is called once per frame
-    private void OnTriggerStay2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        
-        if(other.gameObject.tag == "Player")
+        Contact = true;
+        print("Contact!");
+    }
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        Contact = false;
+        print("Lost Contact!");
+    }
+    private void Update()
+    {
+        if (Contact) 
         {
+            
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                this.gameObject.SetActive(false);
-                CircleOnPlayer.SetActive(true);
-
+               this.gameObject.SetActive(false);
+               CircleOnPlayer.SetActive(true);
             }
         }
     }
