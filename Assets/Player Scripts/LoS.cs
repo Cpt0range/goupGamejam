@@ -11,6 +11,7 @@ public class LoS : MonoBehaviour
         float angleRad = angle * (Mathf.PI / 180);
         return new Vector3(Mathf.Cos(angleRad), Mathf.Sin(angleRad));
     }
+    /*
     static float GetAngleFromVectorFloat(Vector3 dir)
     {
         dir = dir.normalized;
@@ -19,6 +20,7 @@ public class LoS : MonoBehaviour
 
         return n;
     }
+    */
 
     [SerializeField] private LayerMask layerMask;
     private float fov;
