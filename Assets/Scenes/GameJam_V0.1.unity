@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 74646148}
   - component: {fileID: 74646147}
   - component: {fileID: 74646151}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: FieldOfView
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -206,9 +206,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 956105956}
+  rayCount: 1000
   layerMask:
     serializedVersion: 2
     m_Bits: 256
+  fov: 140
 --- !u!4 &74646150
 Transform:
   m_ObjectHideFlags: 0
@@ -218,11 +220,11 @@ Transform:
   m_GameObject: {fileID: 74646146}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.01, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 956105959}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &74646151
 MeshCollider:
@@ -27606,7 +27608,7 @@ GameObject:
   m_Component:
   - component: {fileID: 617005362}
   - component: {fileID: 617005361}
-  m_Layer: 10
+  m_Layer: 13
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27880,7 +27882,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 74646150}
   - {fileID: 216618073}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -27970,7 +27971,7 @@ GameObject:
   - component: {fileID: 1139224248}
   - component: {fileID: 1139224247}
   - component: {fileID: 1139224250}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28108,7 +28109,7 @@ GameObject:
   - component: {fileID: 1600445034}
   - component: {fileID: 1600445038}
   - component: {fileID: 1600445039}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28649,6 +28650,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 2094224419}
   - {fileID: 377353151}
+  - {fileID: 74646150}
   - {fileID: 956105959}
   - {fileID: 1708857741}
   - {fileID: 1139224249}

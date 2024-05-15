@@ -22,20 +22,19 @@ public class LoS : MonoBehaviour
 
         return n;
     }
-
+    [SerializeField] private int rayCount = 250;
     [SerializeField] private LayerMask layerMask;
-    private float fov;
+    [SerializeField] private float fov = 45f;
     private Mesh mesh;
 
     private void Start()
     {
         mesh = new Mesh();
         GetComponent<MeshFilter>().mesh = mesh;
-        fov = 45f;
     }
-
-    private void Update()
+    private void FixedUpdate()
     {
+        transform.position = Player.transform.position;
         var worldMousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         var dir = worldMousePosition - Player.transform.position;
 
@@ -47,12 +46,6 @@ public class LoS : MonoBehaviour
         Vector3 euler = quaternion.eulerAngles;
         float yaw = euler.z;
 
-
-
-
-
-
-        int rayCount = 250;
         float angle = 90+fov/2+yaw;
         float angleIncrease = fov / rayCount;
         float viewdistance = 250f;
