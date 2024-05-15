@@ -6,12 +6,14 @@ using UnityEngine.Rendering;
 
 public class LoS : MonoBehaviour
 {
+    public GameObject Player;
+
     static Vector3 GetVectorFromAngle(float angle)
     {
         float angleRad = angle * (Mathf.PI / 180);
         return new Vector3(Mathf.Cos(angleRad), Mathf.Sin(angleRad));
     }
-    /*
+
     static float GetAngleFromVectorFloat(Vector3 dir)
     {
         dir = dir.normalized;
@@ -20,7 +22,6 @@ public class LoS : MonoBehaviour
 
         return n;
     }
-    */
 
     [SerializeField] private LayerMask layerMask;
     private float fov;
@@ -35,8 +36,24 @@ public class LoS : MonoBehaviour
 
     private void Update()
     {
+        var worldMousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        var dir = worldMousePosition - Player.transform.position;
+
+        // Calculate angle from player to mouse position
+        var anglo1 = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+        Quaternion quaternion = Quaternion.AngleAxis(anglo1 - 90, Vector3.forward);
+
+        // Extract yaw angle from the quaternion
+        Vector3 euler = quaternion.eulerAngles;
+        float yaw = euler.z;
+
+
+
+
+
+
         int rayCount = 750;
-        float angle = 90+fov/2;
+        float angle = 90+fov/2+yaw;
         float angleIncrease = fov / rayCount;
         float viewdistance = 25f;
 
