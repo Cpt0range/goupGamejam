@@ -17,12 +17,12 @@ public class PickMeUp : MonoBehaviour
     {
         CircleOnPlayer.SetActive(false);
     }
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D Player)
     {
         Contact = true;
         print("Contact!");
     }
-    private void OnTriggerExit2D(Collider2D other)
+    private void OnTriggerExit2D(Collider2D Player)
     {
         Contact = false;
         print("Lost Contact!");

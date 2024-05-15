@@ -3,22 +3,23 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - PlayerItem
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Schnaps
   - Water
   - UI
   - 
   - 
   - wall
   - transparent
-  - LoS
-  - 
-  - 
-  - 
+  - los
+  - losVisible
+  - alwaysRendered
+  - shadow
   - 
   - 
   - 
