@@ -12,13 +12,13 @@ TagManager:
   - Water
   - UI
   - 
-  - los
-  - losCollider
-  - losVisible
-  - alwaysRendered
-  - noCollision
   - 
-  - Shadow
+  - wall
+  - transparent
+  - LoS
+  - 
+  - 
+  - 
   - 
   - 
   - 
