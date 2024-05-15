@@ -5,6 +5,7 @@ using UnityEngine.AI;
 
 public class Enemy : MonoBehaviour
 {
+    [SerializeField] private FieldOfView fieldOfView;
     Transform target;
     NavMeshAgent agent;
     private void Start()
@@ -19,6 +20,8 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        fieldOfView.SetAimDirection(transform.up);
+        fieldOfView.SetOrigin(transform.position);
         target = GameObject.FindGameObjectWithTag("Player").transform;
         agent.SetDestination(target.position);
     }
