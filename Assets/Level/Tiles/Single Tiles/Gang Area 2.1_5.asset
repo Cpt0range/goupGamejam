@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Gang Area 2.1_5
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 4053723676802712568, guid: 733930c87effd9644863791fcf8b717c, type: 3}
+  m_Sprite: {fileID: 4053723676802712568, guid: b070dd5e7897d004a9999adf0cede02b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
