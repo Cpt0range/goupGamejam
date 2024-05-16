@@ -1,0 +1,1270 @@
+fileFormatVersion: 2
+guid: afcb4807bf6f01840bdd92bbbdebc8f9
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Ausrufezeichen_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.49122804}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 339
+      width: 36
+      height: 57
+    spriteID: 3a533dba0ab316641a9597143157f7d3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 339}
+  - name: Ausrufezeichen_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.49122804}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 404
+      width: 36
+      height: 57
+    spriteID: bc9414708a910484b8bf55c5fd2aba03
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 404}
+  - name: Ausrufezeichen_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.49122804}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 4
+      width: 36
+      height: 57
+    spriteID: 8779d5b27a5383f4f9b73e8a6c8c8e72
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 4}
+  - name: Ausrufezeichen_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.49122804}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 69
+      width: 36
+      height: 57
+    spriteID: 6d86655f444bbee4086125ea8b33fee5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 69}
+  - name: Ausrufezeichen_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.49122804}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 134
+      width: 36
+      height: 57
+    spriteID: bbc55f67fa229cc41b8f9ab938702aee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 134}
+  - name: Ausrufezeichen_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.49122804}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 199
+      width: 36
+      height: 57
+    spriteID: 37969ff313fe2244a88286705765e9eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 199}
+  - name: Ausrufezeichen_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: -0.49122804}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 264
+      width: 36
+      height: 57
+    spriteID: 5c1ff9a1aff89bf47b05f9d532d941c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 264}
+  - name: Ausrufezeichen_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -0.49122804}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 329
+      width: 36
+      height: 57
+    spriteID: b8528f36094294045aee9d9ac9973b83
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 329}
+  - name: Ausrufezeichen_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.49122804}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 394
+      width: 36
+      height: 57
+    spriteID: 135002674dc1b2a49a2653bdd9de2b0c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 394}
+  - name: Ausrufezeichen_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -0.49122804}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 136
+      y: 4
+      width: 36
+      height: 57
+    spriteID: 6307f751b687fa645974a17ff3709afb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 136, y: 4}
+  - name: Ausrufezeichen_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: -0.49122804}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 136
+      y: 69
+      width: 36
+      height: 57
+    spriteID: 4b79e01d3e5689b47919d46c6362cdc2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 136, y: 69}
+  - name: Ausrufezeichen_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: -0.49122804}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 136
+      y: 134
+      width: 36
+      height: 57
+    spriteID: 1e541832ae9a5e84e83fdb6ca4627cde
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 136, y: 134}
+  - name: Ausrufezeichen_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: -0.49122804}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 136
+      y: 199
+      width: 36
+      height: 57
+    spriteID: 0fe6951173f42d54d99e9888247075e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 136, y: 199}
+  - name: Ausrufezeichen_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: -0.49122804}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 136
+      y: 264
+      width: 36
+      height: 57
+    spriteID: 30d5dd01ae7af9545a9bc51251d7c11a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 136, y: 264}
+  - name: Ausrufezeichen_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: -0.49122804}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 136
+      y: 329
+      width: 36
+      height: 57
+    spriteID: 42a9a4992f7a1324e9878e30d88f8dfe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 136, y: 329}
+  - name: Ausrufezeichen_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: -0.49122804}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 136
+      y: 394
+      width: 36
+      height: 57
+    spriteID: ee8f51a28ddfa444e995935eb7f9be5d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 136, y: 394}
+  - name: Ausrufezeichen_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: -0.49122804}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 180
+      y: 4
+      width: 36
+      height: 57
+    spriteID: 82a5bc21a3172654d876c60dd88949e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 180, y: 4}
+  - name: Ausrufezeichen_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -0.49122804}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 180
+      y: 69
+      width: 36
+      height: 57
+    spriteID: 8f29a363455f059438bae9e4bbe59c57
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 180, y: 69}
+  - name: Ausrufezeichen_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: -0.49122804}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 180
+      y: 134
+      width: 36
+      height: 57
+    spriteID: 91cfbab9692441542a9bb0aee041f782
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 180, y: 134}
+  - name: Ausrufezeichen_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: -0.49122804}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 180
+      y: 199
+      width: 36
+      height: 57
+    spriteID: 901849a1a984af94e9046bedd674d1e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 180, y: 199}
+  - name: Ausrufezeichen_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: -0.49122804}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 180
+      y: 264
+      width: 36
+      height: 57
+    spriteID: 68046b701f3625f4aa4c52bfea13bcfa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 180, y: 264}
+  - name: Ausrufezeichen_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: -0.49122804}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 180
+      y: 329
+      width: 36
+      height: 57
+    spriteID: 1dff4acf76f4e9e4eb303782431a0d63
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 180, y: 329}
+  - name: Ausrufezeichen_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: -0.49122804}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 180
+      y: 394
+      width: 36
+      height: 57
+    spriteID: c0902b7d86f57c341b71d23440586ae6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 180, y: 394}
+  - name: Ausrufezeichen_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: -0.49122804}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 4
+      width: 36
+      height: 57
+    spriteID: 6709a312ad5558240b53efc8f45f143e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 224, y: 4}
+  - name: Ausrufezeichen_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: -0.49122804}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 69
+      width: 36
+      height: 57
+    spriteID: 90cfb5d7297772443af3d1906e290e95
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 224, y: 69}
+  - name: Ausrufezeichen_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: -0.49122804}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 134
+      width: 36
+      height: 57
+    spriteID: f5057743dfcea29498037312a2b57c73
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 224, y: 134}
+  - name: Ausrufezeichen_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: -0.49122804}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 199
+      width: 36
+      height: 57
+    spriteID: 17685e620a481c643a765536ccf950b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 224, y: 199}
+  - name: Ausrufezeichen_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: -0.47457623}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 412
+      width: 36
+      height: 59
+    spriteID: 738414f400a6747479857f1ccb45fb69
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 412}
+  - name: Ausrufezeichen_Frame_28
+    originalName: 
+    pivot: {x: 0.5, y: -0.47457623}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 4
+      width: 36
+      height: 59
+    spriteID: 882a4f5ff1a9b7a40b79d680932cdf2e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 4}
+  - name: Ausrufezeichen_Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: -0.47457623}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 71
+      width: 36
+      height: 59
+    spriteID: 701807e1f00d7a04d91d9082ac78c898
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 71}
+  - name: Ausrufezeichen_Frame_30
+    originalName: 
+    pivot: {x: 0.5, y: -0.46666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 36
+      height: 60
+    spriteID: 1bf2697ff3e14534a8b24a160333713f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Ausrufezeichen_Frame_31
+    originalName: 
+    pivot: {x: 0.5, y: -0.46666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 72
+      width: 36
+      height: 60
+    spriteID: d6a72d0d4f5ca6a4f9782c8033bd6763
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 72}
+  - name: Ausrufezeichen_Frame_32
+    originalName: 
+    pivot: {x: 0.5, y: -0.46666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 140
+      width: 36
+      height: 60
+    spriteID: f161914f2644fbb44b5a954037a3f8a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 140}
+  - name: Ausrufezeichen_Frame_33
+    originalName: 
+    pivot: {x: 0.5, y: -0.47457623}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 138
+      width: 36
+      height: 59
+    spriteID: 8f0a2b5528869164e969c9a4d9234be1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 138}
+  - name: Ausrufezeichen_Frame_34
+    originalName: 
+    pivot: {x: 0.5, y: -0.47457623}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 205
+      width: 36
+      height: 59
+    spriteID: c86561037f7e25a498d64470cf3f926e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 205}
+  - name: Ausrufezeichen_Frame_35
+    originalName: 
+    pivot: {x: 0.5, y: -0.47457623}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 272
+      width: 36
+      height: 59
+    spriteID: bcbbb5a88f597214380f569bc2786b83
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 272}
+  - name: Ausrufezeichen_Frame_36
+    originalName: 
+    pivot: {x: 0.5, y: -0.46666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 208
+      width: 36
+      height: 60
+    spriteID: 0cd67a262bfdefc43a521633b2681e2e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 208}
+  - name: Ausrufezeichen_Frame_37
+    originalName: 
+    pivot: {x: 0.5, y: -0.46666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 276
+      width: 36
+      height: 60
+    spriteID: acca6564dc19b6343bd81a0f01c0e7a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 276}
+  - name: Ausrufezeichen_Frame_38
+    originalName: 
+    pivot: {x: 0.5, y: -0.46666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 344
+      width: 36
+      height: 60
+    spriteID: 81ff834ad1c5a5840b068ba05e8ae701
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 344}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1456155355
+    name: Ausrufezeichen
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Ausrufezeichen_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 57
+      spriteId: 3a533dba0ab316641a9597143157f7d3
+    - name: Ausrufezeichen_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 57
+      spriteId: bc9414708a910484b8bf55c5fd2aba03
+    - name: Ausrufezeichen_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 57
+      spriteId: 8779d5b27a5383f4f9b73e8a6c8c8e72
+    - name: Ausrufezeichen_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 57
+      spriteId: 6d86655f444bbee4086125ea8b33fee5
+    - name: Ausrufezeichen_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 57
+      spriteId: bbc55f67fa229cc41b8f9ab938702aee
+    - name: Ausrufezeichen_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 57
+      spriteId: 37969ff313fe2244a88286705765e9eb
+    - name: Ausrufezeichen_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 57
+      spriteId: 5c1ff9a1aff89bf47b05f9d532d941c3
+    - name: Ausrufezeichen_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 57
+      spriteId: b8528f36094294045aee9d9ac9973b83
+    - name: Ausrufezeichen_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 57
+      spriteId: 135002674dc1b2a49a2653bdd9de2b0c
+    - name: Ausrufezeichen_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 57
+      spriteId: 6307f751b687fa645974a17ff3709afb
+    - name: Ausrufezeichen_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 57
+      spriteId: 4b79e01d3e5689b47919d46c6362cdc2
+    - name: Ausrufezeichen_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 57
+      spriteId: 1e541832ae9a5e84e83fdb6ca4627cde
+    - name: Ausrufezeichen_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 57
+      spriteId: 0fe6951173f42d54d99e9888247075e7
+    - name: Ausrufezeichen_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 57
+      spriteId: 30d5dd01ae7af9545a9bc51251d7c11a
+    - name: Ausrufezeichen_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 57
+      spriteId: 42a9a4992f7a1324e9878e30d88f8dfe
+    - name: Ausrufezeichen_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 57
+      spriteId: ee8f51a28ddfa444e995935eb7f9be5d
+    - name: Ausrufezeichen_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 57
+      spriteId: 82a5bc21a3172654d876c60dd88949e5
+    - name: Ausrufezeichen_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 57
+      spriteId: 8f29a363455f059438bae9e4bbe59c57
+    - name: Ausrufezeichen_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 57
+      spriteId: 91cfbab9692441542a9bb0aee041f782
+    - name: Ausrufezeichen_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 57
+      spriteId: 901849a1a984af94e9046bedd674d1e6
+    - name: Ausrufezeichen_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 57
+      spriteId: 68046b701f3625f4aa4c52bfea13bcfa
+    - name: Ausrufezeichen_Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 57
+      spriteId: 1dff4acf76f4e9e4eb303782431a0d63
+    - name: Ausrufezeichen_Frame_22
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 57
+      spriteId: c0902b7d86f57c341b71d23440586ae6
+    - name: Ausrufezeichen_Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 57
+      spriteId: 6709a312ad5558240b53efc8f45f143e
+    - name: Ausrufezeichen_Frame_24
+      frameIndex: 24
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 57
+      spriteId: 90cfb5d7297772443af3d1906e290e95
+    - name: Ausrufezeichen_Frame_25
+      frameIndex: 25
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 57
+      spriteId: f5057743dfcea29498037312a2b57c73
+    - name: Ausrufezeichen_Frame_26
+      frameIndex: 26
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 57
+      spriteId: 17685e620a481c643a765536ccf950b6
+    - name: Ausrufezeichen_Frame_27
+      frameIndex: 27
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 59
+      spriteId: 738414f400a6747479857f1ccb45fb69
+    - name: Ausrufezeichen_Frame_28
+      frameIndex: 28
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 59
+      spriteId: 882a4f5ff1a9b7a40b79d680932cdf2e
+    - name: Ausrufezeichen_Frame_29
+      frameIndex: 29
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 59
+      spriteId: 701807e1f00d7a04d91d9082ac78c898
+    - name: Ausrufezeichen_Frame_30
+      frameIndex: 30
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 60
+      spriteId: 1bf2697ff3e14534a8b24a160333713f
+    - name: Ausrufezeichen_Frame_31
+      frameIndex: 31
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 60
+      spriteId: d6a72d0d4f5ca6a4f9782c8033bd6763
+    - name: Ausrufezeichen_Frame_32
+      frameIndex: 32
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 60
+      spriteId: f161914f2644fbb44b5a954037a3f8a7
+    - name: Ausrufezeichen_Frame_33
+      frameIndex: 33
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 59
+      spriteId: 8f0a2b5528869164e969c9a4d9234be1
+    - name: Ausrufezeichen_Frame_34
+      frameIndex: 34
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 59
+      spriteId: c86561037f7e25a498d64470cf3f926e
+    - name: Ausrufezeichen_Frame_35
+      frameIndex: 35
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 59
+      spriteId: bcbbb5a88f597214380f569bc2786b83
+    - name: Ausrufezeichen_Frame_36
+      frameIndex: 36
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 60
+      spriteId: 0cd67a262bfdefc43a521633b2681e2e
+    - name: Ausrufezeichen_Frame_37
+      frameIndex: 37
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 60
+      spriteId: acca6564dc19b6343bd81a0f01c0e7a6
+    - name: Ausrufezeichen_Frame_38
+      frameIndex: 38
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 28
+        width: 36
+        height: 60
+      spriteId: 81ff834ad1c5a5840b068ba05e8ae701
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 96, y: 96}
