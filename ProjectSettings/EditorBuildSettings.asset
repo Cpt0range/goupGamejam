@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Markus Credits.unity
     guid: 5169bef9eb8107440abb0b269032cacf
+  - enabled: 1
+    path: Assets/Scenes/Markus Blueprint.unity
+    guid: d13e8f4c83b331942b0c804d475cac74
   m_configObjects: {}
