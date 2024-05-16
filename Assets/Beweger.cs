@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class Beweger : MonoBehaviour
 {
-    [SerializeField] private FieldOfView fieldOfView;
-
+    
     public GameObject Enemy;
     void Start()
     {
@@ -16,7 +15,5 @@ public class Beweger : MonoBehaviour
     void Update()
     {
         transform.position = Enemy.transform.position;
-        fieldOfView.SetAimDirection(Vector3.up);
-        fieldOfView.SetOrigin(transform.position);
     }
 }
