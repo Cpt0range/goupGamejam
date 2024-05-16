@@ -34,6 +34,36 @@ public class FieldOfView : MonoBehaviour {
     }
 
     private void LateUpdate() {
+        
+
+        /*
+        transform.position = Player.transform.position;
+        var worldMousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        var dir = worldMousePosition - Player.transform.position;
+
+        // Calculate angle from player to mouse position
+        var anglo1 = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+        Quaternion quaternion = Quaternion.AngleAxis(anglo1 - 90, Vector3.forward);
+
+        // Extract yaw angle from the quaternion
+        Vector3 euler = quaternion.eulerAngles;
+        float yaw = euler.z;
+        float angle = 90+fov/2+yaw;
+        
+        */
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         int rayCount = 50;
         float angle = startingAngle;
         float angleIncrease = fov / rayCount;
