@@ -20,12 +20,12 @@ public class PickMeUp : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D Player)
     {
         Contact = true;
-        print("Contact!");
+       // Debug.Log("Contact!");
     }
     private void OnTriggerExit2D(Collider2D Player)
     {
         Contact = false;
-        print("Lost Contact!");
+       // Debug.Log("Lost Contact!");
     }
     private void Update()
     {

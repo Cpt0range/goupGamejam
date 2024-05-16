@@ -30,5 +30,6 @@ public class PatrouilleSkript : StateMachineBehaviour
     {
         aktuellerIndex = (aktuellerIndex + 1) % Wegpunkte.Length;
         agent.SetDestination(new Vector2(Wegpunkte[aktuellerIndex].x, Wegpunkte[aktuellerIndex].y));
+        
     }
 }
