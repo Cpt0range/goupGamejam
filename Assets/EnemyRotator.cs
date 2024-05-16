@@ -7,9 +7,10 @@ public class EnemyRotator : MonoBehaviour
 {
     public NavMeshAgent agent;
     public GameObject Player;
+    public Animator animator;
 
     // Start is called before the first frame update
-    void Start(Animator animator)
+    void Start()
     {
         agent = animator.gameObject.GetComponent<NavMeshAgent>();
     }

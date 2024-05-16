@@ -22,48 +22,18 @@ public class FieldOfView : MonoBehaviour {
     private Mesh mesh;
     private float fov;
     private float viewDistance;
-    private Vector3 origin;
+    private Vector3 origin;//durch enemy.position ersetzen
     private float startingAngle;
 
     private void Start() {
         mesh = new Mesh();
         GetComponent<MeshFilter>().mesh = mesh;
-        fov = 90f;
-        viewDistance = 50f;
+        fov = 45f;
+        viewDistance = 5f;
         origin = Vector3.zero;
     }
 
     private void LateUpdate() {
-        
-
-        /*
-        transform.position = Player.transform.position;
-        var worldMousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        var dir = worldMousePosition - Player.transform.position;
-
-        // Calculate angle from player to mouse position
-        var anglo1 = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-        Quaternion quaternion = Quaternion.AngleAxis(anglo1 - 90, Vector3.forward);
-
-        // Extract yaw angle from the quaternion
-        Vector3 euler = quaternion.eulerAngles;
-        float yaw = euler.z;
-        float angle = 90+fov/2+yaw;
-        
-        */
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         int rayCount = 50;
         float angle = startingAngle;
         float angleIncrease = fov / rayCount;
