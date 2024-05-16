@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1265603630614528273}
   - component: {fileID: 2251405347510091063}
   - component: {fileID: 4349911058581492316}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -30,11 +30,10 @@ Transform:
   m_GameObject: {fileID: 1361512690318237140}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.1161194, y: -0.010463208, z: 1.042374}
+  m_LocalPosition: {x: -8.26, y: -0.08, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 842409013288827984}
   - {fileID: 986763214835988126}
   m_Father: {fileID: 7502263843248070935}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -345,6 +344,7 @@ Transform:
   - {fileID: 7718863787307281306}
   - {fileID: 595795372693961859}
   - {fileID: 1911051295672524002}
+  - {fileID: 842409013288827984}
   - {fileID: 8383339631353455227}
   - {fileID: 8413091745251433644}
   m_Father: {fileID: 0}
@@ -363,6 +363,7 @@ GameObject:
   - component: {fileID: 875475540529235896}
   - component: {fileID: 5023340263778465057}
   - component: {fileID: 6265831757008100776}
+  - component: {fileID: 4010509882361717470}
   m_Layer: 11
   m_Name: Enemy
   m_TagString: Untagged
@@ -533,6 +534,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!95 &4010509882361717470
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6141507580588632842}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 722b692e794178b4cb5d0cbdedb1cd49, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &7775627705018532758
 GameObject:
   m_ObjectHideFlags: 0
@@ -559,7 +581,7 @@ Transform:
   m_GameObject: {fileID: 7775627705018532758}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.2027407, y: 3.2276835, z: -1648.7017}
+  m_LocalPosition: {x: -8.26, y: -0.08, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -606,11 +628,11 @@ Transform:
   m_GameObject: {fileID: 8095096567902956808}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -8.26, y: -0.08, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 8383339631353455227}
+  m_Father: {fileID: 7502263843248070935}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &309277480791528726
 MonoBehaviour:
@@ -624,10 +646,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e1d90d402768dd43bd84aace18cb3ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 1361512690318237140}
   layerMask:
     serializedVersion: 2
     m_Bits: 256
+  fov: 240
+  rayCount: 1000
+  Player: {fileID: 1361512690318237140}
 --- !u!33 &7355181367455769237
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -710,7 +734,7 @@ GameObject:
   m_Component:
   - component: {fileID: 986763214835988126}
   - component: {fileID: 9068785230691084370}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CircleOnPlayer
   m_TagString: PlayerItem
   m_Icon: {fileID: 0}
@@ -813,7 +837,7 @@ Transform:
   m_GameObject: {fileID: 8430364693878855686}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.1161194, y: -0.010463208, z: -8.957626}
+  m_LocalPosition: {x: -8.26, y: -0.08, z: -8.957626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -828,8 +852,8 @@ Camera:
   m_GameObject: {fileID: 8430364693878855686}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -910,7 +934,7 @@ MonoBehaviour:
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
   m_Cameras: []
-  m_RendererIndex: -1
+  m_RendererIndex: 0
   m_VolumeLayerMask:
     serializedVersion: 2
     m_Bits: 1

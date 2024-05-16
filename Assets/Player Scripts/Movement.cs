@@ -10,21 +10,14 @@ public class Movement : MonoBehaviour
     float vertical;
     float moveMod = 5;
     public Vector2 move;
-
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
     }
-
-    void Update()
+    void FixedUpdate()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
-        
-    }
-
-    void FixedUpdate()
-    {
         move = new Vector2(horizontal, vertical).normalized;
         body.velocity = new Vector2(move.x * moveMod,move.y * moveMod);
     }
