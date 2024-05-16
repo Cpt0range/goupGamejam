@@ -20,7 +20,7 @@ public class Leer : MonoBehaviour
             bool currentValue = animator.GetBool("angeregt");
 
             // Den Wert des Parameters umkehren (Toggle)
-            animator.SetBool("angeregt", !currentValue);
+            animator.SetBool("angeregt",!currentValue);
         }
     }
 }

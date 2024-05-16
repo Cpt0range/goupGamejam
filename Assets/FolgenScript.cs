@@ -34,5 +34,6 @@ public class FolgenScript : StateMachineBehaviour
             
             agent.SetDestination(target.position);
 
+
     }
 }

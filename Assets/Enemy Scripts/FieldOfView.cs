@@ -43,9 +43,15 @@ public class FieldOfView : MonoBehaviour
         
         viewDistance = 16f;
         origin = Vector3.zero;
+
+        animator.SetBool("angeregt", false);
+
     }
     private void Update()
     {
+
+        bool Aktueller_angeregt = animator.GetBool("angeregt");
+        Debug.Log(Aktueller_angeregt);
 
         if (navMeshAgent.velocity.magnitude != 0)
             lastKnownAgentVector = navMeshAgent.velocity;
@@ -148,6 +154,7 @@ public class FieldOfView : MonoBehaviour
         Debug.DrawLine(origin, origin + richtungZumSpieler, Color.red);
         Debug.DrawLine(origin, origin + lastKnownAgentVector, Color.blue);
 
+        
 
         if (Mathf.Abs(winkel) < fov / 2f)
         {
@@ -156,20 +163,21 @@ public class FieldOfView : MonoBehaviour
             {
                 if (hit.transform.CompareTag("Player"))
                 {
-                    Debug.Log("Spieler erkannt!");
-                    bool currentValue = animator.GetBool("angeregt");
+                    //Debug.Log("Spieler erkannt!");
+                    //bool currentValue = animator.GetBool("angeregt");
 
                     
                     animator.SetBool("angeregt", true);
+                    
                     return true;
                 }
-                Debug.Log("Hindernis erkannt!");
+                //Debug.Log("Hindernis erkannt!");
                 return false;
             }
-            Debug.Log("Außerhalb der Sichtweite");
+            //Debug.Log("Außerhalb der Sichtweite");
             return false;
         }
-        Debug.Log("Außerhalb des Sichtfeldes");
+        //Debug.Log("Außerhalb des Sichtfeldes");
         return false;
     }
 }
