@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Markus Blueprint.unity
     guid: d13e8f4c83b331942b0c804d475cac74
+  - enabled: 1
+    path: Assets/Scenes/Markus Game Over.unity
+    guid: 61b40c31b87b5994c8d38d5d138ecbe7
   m_configObjects: {}
