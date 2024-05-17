@@ -7,6 +7,6 @@ public class BlueprintMenu : MonoBehaviour
 {
     public void ContinueToGame()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(6);
     }
 }
