@@ -44,7 +44,7 @@ public class FieldOfView : MonoBehaviour
         GetComponent<MeshFilter>().mesh = mesh;
         
         viewDistance = 16f;
-        origin = Vector3.zero;
+        //origin = Vector3.zero;
 
         animator.SetBool("angeregt", false);
 
@@ -66,6 +66,7 @@ public class FieldOfView : MonoBehaviour
     }
     public void LateUpdate()
     {
+        origin = Enemy1.transform.localPosition;
         int rayCount = 50;
         float angle = startingAngle;
         float angleIncrease = fov / rayCount;
