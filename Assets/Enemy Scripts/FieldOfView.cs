@@ -7,11 +7,12 @@ using UnityEngine.UIElements;
 
 public class FieldOfView : MonoBehaviour
 {
-    public GameObject EnemyLoS;
-    public GameObject Enemy1;
-    public GameObject Player;
-    public Animator animator;
-    public NavMeshAgent navMeshAgent;
+    public Vector3 lastKnownPlayerPosition;
+    private Vector3 SpawnOffset;
+
+    private GameObject Player;
+    private Animator animator;
+    private NavMeshAgent navMeshAgent;
     private Vector3 lastKnownAgentVector;
 
     static Vector3 GetVectorFromAngle(float angle)
@@ -22,6 +23,7 @@ public class FieldOfView : MonoBehaviour
 
     static float GetAngleFromVectorFloat(Vector3 dir)
     {
+
         dir = dir.normalized;
         float n = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
         if (n < 0) n += 360;
@@ -34,16 +36,23 @@ public class FieldOfView : MonoBehaviour
 
     private Mesh mesh;
     public float fov;
-    private float viewDistance;
+    private float viewDistance = 16f;
     private Vector3 origin;
     private float startingAngle;
 
     private void Start()
     {
+
+        SpawnOffset = transform.parent.position;
+
+        animator = transform.parent.Find("Enemy").GetComponent<Animator>();
+        navMeshAgent = transform.parent.Find("Enemy").GetComponent<NavMeshAgent>();
+        Player = GameObject.FindGameObjectWithTag("Player");
+
         mesh = new Mesh();
         GetComponent<MeshFilter>().mesh = mesh;
         
-        viewDistance = 16f;
+        
         origin = Vector3.zero;
 
         animator.SetBool("angeregt", false);
@@ -75,7 +84,7 @@ public class FieldOfView : MonoBehaviour
         int[] triangles = new int[rayCount * 3];
         mesh.RecalculateBounds();
 
-        vertices[0] = origin;
+        vertices[0] = origin - SpawnOffset;
 
         int vertexIndex = 1;
         int triangleIndex = 0;
@@ -86,12 +95,12 @@ public class FieldOfView : MonoBehaviour
             if (raycastHit2D.collider == null)
             {
                 // No hit
-                vertex = origin + GetVectorFromAngle(angle) * viewDistance;
+                vertex = origin + GetVectorFromAngle(angle) * viewDistance - SpawnOffset;
             }
             else
             {
                 // Hit object
-                vertex = raycastHit2D.point;
+                vertex = (Vector3)raycastHit2D.point - SpawnOffset;
             }
             vertices[vertexIndex] = vertex;
 
@@ -112,7 +121,9 @@ public class FieldOfView : MonoBehaviour
         mesh.vertices = vertices;
         mesh.uv = uv;
         mesh.triangles = triangles;
-        mesh.bounds = new Bounds(origin, Vector3.one * 1000f);
+        //mesh.bounds = new Bounds(origin, Vector3.one * viewDistance);
+
+        mesh.RecalculateBounds();
     }
 
     public void SetOrigin(Vector3 origin)
@@ -158,22 +169,17 @@ public class FieldOfView : MonoBehaviour
                 {
                     //Debug.Log("Spieler erkannt!");
                     //bool currentValue = animator.GetBool("angeregt");
-
+                    lastKnownPlayerPosition = hit.transform.position;
                     animator.SetBool("siehtSpieler", true);
                     animator.SetBool("angeregt", true);
                     
                     return true;
                 }
-                animator.SetBool("siehtSpieler", false);
-                //Debug.Log("Hindernis erkannt!");
-                return false;
+                
             }
-            animator.SetBool("siehtSpieler", false);
-            //Debug.Log("Außerhalb der Sichtweite");
-            return false;
+            
         }
-        animator.SetBool("siehtSpieler", false);
-        //Debug.Log("Außerhalb des Sichtfeldes");
+        
         
         animator.SetBool("siehtSpieler", false);
         return false;

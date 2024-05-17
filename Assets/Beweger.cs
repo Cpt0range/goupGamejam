@@ -1,21 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 
 public class Beweger : MonoBehaviour
 {
-    public Animator animator;
-    public GameObject Player;
-    [SerializeField] private FieldOfView fieldOfView;
+    private Animator animator;
+    private GameObject Player;
+    private FieldOfView fieldOfView;
 
-    public GameObject Enemy;
-    public NavMeshAgent navMeshAgent;
+    private GameObject Enemy;
+    private NavMeshAgent navMeshAgent;
     private Vector3 lastKnownAgentVector;
 
     void Start()
     {
+        fieldOfView = transform.parent.GetComponentInChildren<FieldOfView>();
+        Player = GameObject.FindGameObjectWithTag("Player");
+        Enemy = transform.parent.Find("Enemy").gameObject;
+        animator = Enemy.GetComponent<Animator>();
         navMeshAgent = Enemy.GetComponent<NavMeshAgent>();
+
     }
 
     // Update is called once per frame

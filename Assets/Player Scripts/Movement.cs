@@ -22,7 +22,7 @@ public class Movement : MonoBehaviour
     }
     void FixedUpdate()
     {
-        Debug.Log(HP);
+       // Debug.Log(HP);
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
         move = new Vector2(horizontal, vertical).normalized;

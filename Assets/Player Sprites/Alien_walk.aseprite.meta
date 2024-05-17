@@ -2,7 +2,12 @@ fileFormatVersion: 2
 guid: 4f54e3ec9759fdd42a026d5fa9f9ded0
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Loop
+    second: {fileID: 7400000, guid: a00cc14e7acc4364987927db3723b5a8, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -35,7 +40,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 96
+    spritePixelsToUnits: 76
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -97,7 +102,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638514769158165060
+  platformSettingsDirtyTick: 638515556269971758
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -123,8 +128,8 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Alien_walk_Frame_0
     originalName: 
-    pivot: {x: 0.4705882, y: -0.13253012}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -143,8 +148,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 96}
   - name: Alien_walk_Frame_1
     originalName: 
-    pivot: {x: 0.4705882, y: -0.121951215}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -163,8 +168,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 187}
   - name: Alien_walk_Frame_2
     originalName: 
-    pivot: {x: 0.48484847, y: -0.1375}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -183,8 +188,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 369}
   - name: Alien_walk_Frame_3
     originalName: 
-    pivot: {x: 0.48484847, y: -0.21917808}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -203,8 +208,8 @@ ScriptedImporter:
     uvTransform: {x: 47, y: 266}
   - name: Alien_walk_Frame_4
     originalName: 
-    pivot: {x: 0.49999997, y: -0.24285714}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -223,8 +228,8 @@ ScriptedImporter:
     uvTransform: {x: 128, y: 159}
   - name: Alien_walk_Frame_5
     originalName: 
-    pivot: {x: 0.49999997, y: -0.2647059}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -243,8 +248,8 @@ ScriptedImporter:
     uvTransform: {x: 128, y: 312}
   - name: Alien_walk_Frame_6
     originalName: 
-    pivot: {x: 0.51515156, y: -0.36065575}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -263,8 +268,8 @@ ScriptedImporter:
     uvTransform: {x: 169, y: 4}
   - name: Alien_walk_Frame_7
     originalName: 
-    pivot: {x: 0.51515156, y: -0.26865673}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -283,8 +288,8 @@ ScriptedImporter:
     uvTransform: {x: 128, y: 237}
   - name: Alien_walk_Frame_8
     originalName: 
-    pivot: {x: 0.49999997, y: -0.20547944}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -303,8 +308,8 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 4}
   - name: Alien_walk_Frame_9
     originalName: 
-    pivot: {x: 0.51515156, y: -0.15384616}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -323,8 +328,8 @@ ScriptedImporter:
     uvTransform: {x: 47, y: 4}
   - name: Alien_walk_Frame_10
     originalName: 
-    pivot: {x: 0.49999997, y: -0.125}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -343,8 +348,8 @@ ScriptedImporter:
     uvTransform: {x: 47, y: 90}
   - name: Alien_walk_Frame_11
     originalName: 
-    pivot: {x: 0.51515156, y: -0.2328767}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -363,8 +368,8 @@ ScriptedImporter:
     uvTransform: {x: 47, y: 347}
   - name: Alien_walk_Frame_12
     originalName: 
-    pivot: {x: 0.49999997, y: -0.29411766}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -383,8 +388,8 @@ ScriptedImporter:
     uvTransform: {x: 128, y: 388}
   - name: Alien_walk_Frame_13
     originalName: 
-    pivot: {x: 0.51515156, y: -0.27536234}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -403,8 +408,8 @@ ScriptedImporter:
     uvTransform: {x: 128, y: 82}
   - name: Alien_walk_Frame_14
     originalName: 
-    pivot: {x: 0.51515156, y: -0.21428572}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -423,8 +428,8 @@ ScriptedImporter:
     uvTransform: {x: 128, y: 4}
   - name: Alien_walk_Frame_15
     originalName: 
-    pivot: {x: 0.49999997, y: -0.14666666}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -443,8 +448,8 @@ ScriptedImporter:
     uvTransform: {x: 47, y: 428}
   - name: Alien_walk_Frame_16
     originalName: 
-    pivot: {x: 0.49999997, y: -0.0875}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -463,8 +468,8 @@ ScriptedImporter:
     uvTransform: {x: 47, y: 178}
   - name: Alien_walk_Frame_17
     originalName: 
-    pivot: {x: 0.48484847, y: -0.05952381}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -483,8 +488,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 277}
   - name: Alien_walk_Frame_18
     originalName: 
-    pivot: {x: 0.45714283, y: -0.05952381}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -697,6 +702,18 @@ ScriptedImporter:
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
   - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Windows Store Apps
     overridden: 0
     ignorePlatformSupport: 0
     maxTextureSize: 2048
