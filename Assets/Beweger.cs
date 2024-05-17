@@ -31,13 +31,13 @@ public class Beweger : MonoBehaviour
         if (navMeshAgent.velocity.magnitude != 0)
             lastKnownAgentVector = navMeshAgent.velocity;
 
-        transform.position = Enemy.transform.position;
+        transform.localPosition = Enemy.transform.localPosition;
         
-        fieldOfView.SetOrigin(transform.position);
+        fieldOfView.SetOrigin(transform.localPosition);
 
         if (animator.GetBool("angeregt") == true)
             
-        fieldOfView.SetAimDirection(Player.transform.position - transform.position);
+        fieldOfView.SetAimDirection(Player.transform.position - transform.localPosition);
      //   fieldOfView.SetAimDirection(Player.transform.position - Enemy.transform.position);
         else if (animator.GetBool("angeregt") == false)
         {

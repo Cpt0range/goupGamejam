@@ -75,6 +75,7 @@ public class FieldOfView : MonoBehaviour
     }
     public void LateUpdate()
     {
+        origin = Enemy1.transform.localPosition;
         int rayCount = 50;
         float angle = startingAngle;
         float angleIncrease = fov / rayCount;
