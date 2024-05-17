@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5cf2c830b9bdef147a86d49730126a7b
+guid: 92088000c77a38c44b916314e9d66009
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638515101267598617
+  platformSettingsDirtyTick: 638515155334255768
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Wachturm
+  - name: Tische (1)
     originalName: 
-    pivot: {x: 0.47380954, y: -0.18689321}
+    pivot: {x: 0.6813509, y: -0.058035716}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 420
-      height: 412
-    spriteID: 3d985184eee56264fb19f7437835f965
+      width: 681
+      height: 224
+    spriteID: 69d3345ca36454d49952ee1f2e2942b6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,7 +142,87 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
   spriteSheetImportData:
-  - name: Wachturm_0
+  - name: Tische (1)_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6
+      y: 129
+      width: 153
+      height: 99
+    spriteID: 1a24b61ec2e80734cac076e4b6396f32
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Tische (1)_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 125
+      width: 153
+      height: 93
+    spriteID: ce597e7d733401c4b9661de35fefcb3b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Tische (1)_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 404
+      y: 124
+      width: 153
+      height: 95
+    spriteID: 2da07103fba48d944bea4599080b7711
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Tische (1)_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 604
+      y: 136
+      width: 81
+      height: 75
+    spriteID: fb21dd023da4f254d92d226f85e7107e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Tische (1)_4
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -150,10 +230,70 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 4
-      width: 420
-      height: 412
-    spriteID: 5a18700086b1f3845b717afd4ba5e490
+      y: 15
+      width: 138
+      height: 82
+    spriteID: da867126f931b7e42a2e89eb0a7a873d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Tische (1)_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 164
+      y: 16
+      width: 138
+      height: 81
+    spriteID: b19cdce728d0cfe458406d6017a2b774
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Tische (1)_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 325
+      y: 16
+      width: 138
+      height: 81
+    spriteID: bdcccb1dabb0fa841818e44f8568c53e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Tische (1)_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 484
+      y: 16
+      width: 138
+      height: 81
+    spriteID: cbef7de2be01cf64a90f4e386f80243e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -164,21 +304,21 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   asepriteLayers:
   - layerIndex: 0
-    guid: -2112841089
-    name: Wachturm
+    guid: -1364820246
+    name: Tische (1)
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Wachturm
+    - name: Tische (1)
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 89
-        y: 77
-        width: 420
-        height: 412
-      spriteId: 3d985184eee56264fb19f7437835f965
+        x: 16
+        y: 13
+        width: 681
+        height: 224
+      spriteId: 69d3345ca36454d49952ee1f2e2942b6
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -209,4 +349,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 576, y: 576}
+  canvasSize: {x: 960, y: 250}

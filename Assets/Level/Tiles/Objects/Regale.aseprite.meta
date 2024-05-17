@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9a857e543f1ab464fa8122df9a3bbf6d
+guid: 9ba36f6b6710cbf44bb96d71ac257749
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638514802609455909
+  platformSettingsDirtyTick: 638515104991444127
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Assets_Deko
+  - name: Regale
     originalName: 
-    pivot: {x: 0.82790697, y: -7.967213}
+    pivot: {x: 0.5151515, y: -1.28}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 645
-      height: 122
-    spriteID: cc75e1f3e6cb4b64fbf162cc0c8c8785
+      width: 858
+      height: 75
+    spriteID: 10984645b35035c4f93bae9a7533c3b4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,7 +142,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
   spriteSheetImportData:
-  - name: Assets_Deko_0
+  - name: Regale_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -150,110 +150,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 84
-      width: 38
-      height: 36
-    spriteID: e99fbd773dff0904383b53de81ba438f
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Assets_Deko_1
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 55
-      y: 56
-      width: 138
-      height: 61
-    spriteID: 363f03ea3b7eca040baff068aefd2f99
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Assets_Deko_2
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 224
-      y: 91
-      width: 20
-      height: 25
-    spriteID: ea42d47df894e45428d9f3acea319f59
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Assets_Deko_3
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 253
-      y: 76
-      width: 32
-      height: 27
-    spriteID: 5dd2627ac0990fc4ea103b7237102fc9
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Assets_Deko_5
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 355
-      y: 53
-      width: 61
-      height: 62
-    spriteID: 708bb12d02691244289793a6f380a73c
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: Assets_Deko_6
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 454
       y: 4
-      width: 122
-      height: 122
-    spriteID: ea3e4398e0b0b5e498e706589db937b4
+      width: 202
+      height: 68
+    spriteID: df2a77d4d867f0f4b9d5149d4cc6eded
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -262,18 +162,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Assets_Deko_7
+  - name: Regale_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 581
-      y: 56
-      width: 68
-      height: 70
-    spriteID: 38b398f6c365a8444a3e1a994dfe5964
+      x: 238
+      y: 4
+      width: 192
+      height: 71
+    spriteID: a37e03a5280c2ad439232efed3c3879e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -282,18 +182,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Assets_Deko_8
+  - name: Regale_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 681
-      y: 70
-      width: 54
-      height: 42
-    spriteID: 717dc1e99dbb22040954e73fea52029e
+      x: 446
+      y: 4
+      width: 202
+      height: 75
+    spriteID: 013f046a0243fc643819943ba94e416f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -302,18 +202,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: Assets_Deko_9
+  - name: Regale_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 222
-      y: 50
-      width: 22
-      height: 30
-    spriteID: f532602b73de6464fb85e1ad330f60e1
+      x: 670
+      y: 4
+      width: 192
+      height: 62
+    spriteID: feaa612d73303274da44e51f155694e6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -324,21 +224,21 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   asepriteLayers:
   - layerIndex: 0
-    guid: 137001741
-    name: Assets_Deko
+    guid: -1613001904
+    name: Regale
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Assets_Deko
+    - name: Regale
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 16
-        y: 972
-        width: 731
-        height: 122
-      spriteId: cc75e1f3e6cb4b64fbf162cc0c8c8785
+        x: 38
+        y: 96
+        width: 858
+        height: 75
+      spriteId: 10984645b35035c4f93bae9a7533c3b4
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -369,4 +269,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 1100, y: 1100}
+  canvasSize: {x: 960, y: 192}

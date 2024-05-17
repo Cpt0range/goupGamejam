@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5cf2c830b9bdef147a86d49730126a7b
+guid: 224835c4f9ad3644f920a1d02152e082
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638515101267598617
+  platformSettingsDirtyTick: 638515230623053979
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Wachturm
+  - name: Autos
     originalName: 
-    pivot: {x: 0.47380954, y: -0.18689321}
+    pivot: {x: 0.39384612, y: -0.22049688}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 420
-      height: 412
-    spriteID: 3d985184eee56264fb19f7437835f965
+      width: 325
+      height: 322
+    spriteID: 11200e131a1b98d478106a11530fc5ba
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,7 +142,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
   spriteSheetImportData:
-  - name: Wachturm_0
+  - name: Autos_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -151,9 +151,29 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 420
-      height: 412
-    spriteID: 5a18700086b1f3845b717afd4ba5e490
+      width: 140
+      height: 322
+    spriteID: 23425074f9b063b438ddcbbef2ae2034
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Autos_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 203
+      y: 24
+      width: 126
+      height: 185
+    spriteID: ea3236a6738837448898966e58e37ee8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -164,21 +184,21 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   asepriteLayers:
   - layerIndex: 0
-    guid: -2112841089
-    name: Wachturm
+    guid: -920184410
+    name: Autos
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Wachturm
+    - name: Autos
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 89
-        y: 77
-        width: 420
-        height: 412
-      spriteId: 3d985184eee56264fb19f7437835f965
+        x: 122
+        y: 71
+        width: 325
+        height: 322
+      spriteId: 11200e131a1b98d478106a11530fc5ba
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -209,4 +229,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 576, y: 576}
+  canvasSize: {x: 500, y: 480}

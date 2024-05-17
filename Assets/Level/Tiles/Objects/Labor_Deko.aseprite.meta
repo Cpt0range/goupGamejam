@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5cf2c830b9bdef147a86d49730126a7b
+guid: f7b89a4e3800fc849ac0e26698efbe85
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638515101267598617
+  platformSettingsDirtyTick: 638515235091567657
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Wachturm
+  - name: Labor_Deko
     originalName: 
-    pivot: {x: 0.47380954, y: -0.18689321}
+    pivot: {x: 0.5507042, y: -8.172839}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 420
-      height: 412
-    spriteID: 3d985184eee56264fb19f7437835f965
+      width: 710
+      height: 81
+    spriteID: 3dc372e1779ea434d864dc68d1872a58
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,7 +142,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
   spriteSheetImportData:
-  - name: Wachturm_0
+  - name: Labor_Deko_0
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -150,10 +150,70 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
+      y: 14
+      width: 215
+      height: 57
+    spriteID: 6406dfa9e96a4f2449b28930315fee6e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Labor_Deko_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 234
+      y: 14
+      width: 120
+      height: 57
+    spriteID: 1e8b7b5d922ecda4f969b648478e65ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Labor_Deko_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 378
       y: 4
-      width: 420
-      height: 412
-    spriteID: 5a18700086b1f3845b717afd4ba5e490
+      width: 162
+      height: 81
+    spriteID: 0738cc0ce6bbd9e479060140884fa883
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Labor_Deko_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 603
+      y: 46
+      width: 111
+      height: 31
+    spriteID: 2c6005cb0e429cb42bf68059604ddf8b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -164,21 +224,21 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   asepriteLayers:
   - layerIndex: 0
-    guid: -2112841089
-    name: Wachturm
+    guid: -776373924
+    name: Labor_Deko
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Wachturm
+    - name: Labor_Deko
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
         x: 89
-        y: 77
-        width: 420
-        height: 412
-      spriteId: 3d985184eee56264fb19f7437835f965
+        y: 662
+        width: 710
+        height: 81
+      spriteId: 3dc372e1779ea434d864dc68d1872a58
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -209,4 +269,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 576, y: 576}
+  canvasSize: {x: 960, y: 960}
