@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using Unity.Burst.CompilerServices;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UIElements;
 
 public class FieldOfView : MonoBehaviour
 {
+    public GameObject EnemyLoS;
     public GameObject Enemy1;
     public GameObject Player;
     public Animator animator;
@@ -50,13 +52,17 @@ public class FieldOfView : MonoBehaviour
     private void Update()
     {
 
+        
+
         bool Aktueller_angeregt = animator.GetBool("angeregt");
-        Debug.Log(Aktueller_angeregt);
+        //Debug.Log(Aktueller_angeregt);
 
         if (navMeshAgent.velocity.magnitude != 0)
             lastKnownAgentVector = navMeshAgent.velocity;
         //if (CheckLineOfSight()) Debug.Log("Gesichted");
         CheckLineOfSight();
+
+        startingAngle = GetAngleFromVectorFloat(lastKnownAgentVector) + fov / 2f;
     }
     public void LateUpdate()
     {
@@ -129,19 +135,6 @@ public class FieldOfView : MonoBehaviour
         this.viewDistance = viewDistance;
     }
 
-    /* private void OnTriggerEnter2D(Collider2D collision) //fürt auß wenn das Collider einen anderen berührt
-    {
-
-        
-            
-
-            if (collision.gameObject.CompareTag("Player"))
-            {
-            Debug.Log("Spotted");
-            animator.SetBool("angeregt",true);
-            }
-        
-    } */
 
     public bool CheckLineOfSight()
     {
@@ -150,11 +143,11 @@ public class FieldOfView : MonoBehaviour
         lastKnownAgentVector.z = 0;
         float winkel = Vector3.Angle(lastKnownAgentVector, richtungZumSpieler); // Angenommen, die Vorwärtsrichtung des NPCs zeigt entlang der positiven x-Achse
         
-        Debug.Log(winkel);
+        //Debug.Log(winkel);
         Debug.DrawLine(origin, origin + richtungZumSpieler, Color.red);
         Debug.DrawLine(origin, origin + lastKnownAgentVector, Color.blue);
+        //Debug.Log(animator.GetBool("siehtSpieler"));
 
-        
 
         if (Mathf.Abs(winkel) < fov / 2f)
         {
@@ -166,18 +159,24 @@ public class FieldOfView : MonoBehaviour
                     //Debug.Log("Spieler erkannt!");
                     //bool currentValue = animator.GetBool("angeregt");
 
-                    
+                    animator.SetBool("siehtSpieler", true);
                     animator.SetBool("angeregt", true);
                     
                     return true;
                 }
+                animator.SetBool("siehtSpieler", false);
                 //Debug.Log("Hindernis erkannt!");
                 return false;
             }
+            animator.SetBool("siehtSpieler", false);
             //Debug.Log("Außerhalb der Sichtweite");
             return false;
         }
+        animator.SetBool("siehtSpieler", false);
         //Debug.Log("Außerhalb des Sichtfeldes");
+        
+        animator.SetBool("siehtSpieler", false);
         return false;
     }
+    
 }

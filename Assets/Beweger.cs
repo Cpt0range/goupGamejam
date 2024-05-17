@@ -4,27 +4,40 @@ using UnityEngine;
 using UnityEngine.AI;
 
 public class Beweger : MonoBehaviour
-{ 
+{
+    public Animator animator;
     public GameObject Player;
     [SerializeField] private FieldOfView fieldOfView;
 
     public GameObject Enemy;
-    private NavMeshAgent NavMeshAgent;
+    public NavMeshAgent navMeshAgent;
+    private Vector3 lastKnownAgentVector;
 
     void Start()
     {
-        NavMeshAgent = Enemy.GetComponent<NavMeshAgent>();
+        navMeshAgent = Enemy.GetComponent<NavMeshAgent>();
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        if (navMeshAgent.velocity.magnitude != 0)
+            lastKnownAgentVector = navMeshAgent.velocity;
+
         transform.position = Enemy.transform.position;
         
-        fieldOfView.SetAimDirection(NavMeshAgent.velocity.normalized);
-     //   fieldOfView.SetAimDirection(Player.transform.position - Enemy.transform.position);
-
         fieldOfView.SetOrigin(transform.position);
+
+        if (animator.GetBool("angeregt") == true)
+            
+        fieldOfView.SetAimDirection(Player.transform.position - transform.position);
+     //   fieldOfView.SetAimDirection(Player.transform.position - Enemy.transform.position);
+        else if (animator.GetBool("angeregt") == false)
+        {
+            fieldOfView.SetAimDirection(lastKnownAgentVector);
+        }
+
 
 
     }

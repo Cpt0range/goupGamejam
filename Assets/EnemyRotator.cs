@@ -5,8 +5,10 @@ using UnityEngine.AI;
 
 public class EnemyRotator : MonoBehaviour
 {
+    public Animator animator;
     public NavMeshAgent agent;
     public GameObject Player;
+    public 
 
     // Start is called before the first frame update
     void Start()
@@ -19,16 +21,26 @@ public class EnemyRotator : MonoBehaviour
     void Update()
     {
 
-        var vel = agent.velocity;
-        vel.z = 0;
-
-        if (vel != Vector3.zero)
+        if (animator.GetBool("angeregt") == false)
         {
-            transform.rotation = Quaternion.LookRotation( Vector3.forward, vel );
+            var vel = agent.velocity;
+            vel.z = 0;
+
+            if (vel != Vector3.zero)
+            {
+                transform.rotation = Quaternion.LookRotation(Vector3.forward, vel);
+            }
         }
-        /* var dir = agent.transform.position - Player.transform.position;
-         var angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-         transform.rotation = Quaternion.AngleAxis(angle - 30, Vector3.forward);
-        */
+        else if (animator.GetBool("angeregt") == true)
+        {
+            var dir = agent.transform.position - Player.transform.position;
+            var angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.AngleAxis(angle - 30, Vector3.forward);
+        }
+
+            
+
+
+
     }
 }

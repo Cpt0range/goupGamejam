@@ -17,6 +17,8 @@ public class PatrouilleSkript : StateMachineBehaviour
 
     public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
+       
+        
         if (agent == null || aktuellerIndex < 0 || aktuellerIndex >= Wegpunkte.Length)
             return;
 

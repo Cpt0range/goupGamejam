@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
+    public float HP;
+
     Rigidbody2D body;
 
     float horizontal;
@@ -12,10 +14,15 @@ public class Movement : MonoBehaviour
     public Vector2 move;
     void Start()
     {
-        body = GetComponent<Rigidbody2D>();
+
+    HP = 100f;
+
+    body = GetComponent<Rigidbody2D>();
+
     }
     void FixedUpdate()
     {
+        Debug.Log(HP);
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
         move = new Vector2(horizontal, vertical).normalized;
