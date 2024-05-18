@@ -36,7 +36,7 @@ public class FieldOfView : MonoBehaviour
 
     private Mesh mesh;
     public float fov;
-    private float viewDistance = 16f;
+    private float viewDistance = 8f;
     private Vector3 origin;
     private float startingAngle;
 

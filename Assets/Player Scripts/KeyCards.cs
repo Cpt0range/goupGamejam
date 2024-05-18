@@ -25,6 +25,7 @@ public class KeyCards : MonoBehaviour
     public bool yelKeycard;
     public GameObject YellowKeycardUI;
     public GameObject YellowKeycard;
+    public GameObject YellowKeycard2;
 
     private void Start()
     {
@@ -41,6 +42,7 @@ public class KeyCards : MonoBehaviour
         PurpleKeycardUI.SetActive(false);
 
         YellowKeycard.SetActive(true);
+        YellowKeycard2.SetActive(true);
         YellowKeycardUI.SetActive(false);
     }
     private void OnTriggerEnter2D(Collider2D trigger)
@@ -73,6 +75,7 @@ public class KeyCards : MonoBehaviour
                 case "Yellow":
                     yelKeycard = true;
                     YellowKeycard.SetActive(false);
+                    YellowKeycard2.SetActive(false);
                     YellowKeycardUI.SetActive(true);
                     break;
                 case "Player":

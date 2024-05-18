@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Movement : MonoBehaviour
 {
@@ -19,10 +20,11 @@ public class Movement : MonoBehaviour
 
     body = GetComponent<Rigidbody2D>();
 
-    }
+    }   
     void FixedUpdate()
     {
-       // Debug.Log(HP);
+        if (HP <= 0) SceneManager.LoadScene(4);
+        // Debug.Log(HP);
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
         move = new Vector2(horizontal, vertical).normalized;
