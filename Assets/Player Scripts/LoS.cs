@@ -48,7 +48,7 @@ public class LoS : MonoBehaviour
         float yaw = euler.z;
         float angle = 90+fov/2+yaw;
         float angleIncrease = fov / rayCount;
-        float viewdistance = 250f;
+        float viewdistance = 50f;
 
         Vector3[] vertices = new Vector3[rayCount + 1 + 1];
         Vector2[] uv = new Vector2[vertices.Length];

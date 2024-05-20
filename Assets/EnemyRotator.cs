@@ -36,14 +36,14 @@ public class EnemyRotator : MonoBehaviour
                 transform.rotation = Quaternion.LookRotation(Vector3.forward, vel);
             }
         }
-
+        
         else if (animator.GetBool("angeregt") == true)
         {
-            var dir = agent.transform.position - fieldOfView.lastKnownPlayerPosition;
+            var dir = agent.transform.position - Player.transform.position; //var dir = agent.transform.position - fieldOfView.lastKnownPlayerPosition;// sollte hier eigentlich stehen
             var angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
             transform.rotation = Quaternion.AngleAxis(angle - 30, Vector3.forward);
         }
-
+        
             
 
 
